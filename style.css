@@ -1,0 +1,94 @@
+/* CSS files add styling rules to your content */
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/****Section Images on home page*******/
+
+.header img {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.header .title {
+  font-family: "Arial", serif;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.homepagetext {
+  background-color: black;
+  postion: absolute;
+  top: 50%;
+  left: 50;
+}
+
+.homepageimg {
+  width: 100%;
+  height: 80%;
+}
+
+.w3-button {
+  background-image: url("https://cdn.glitch.com/0baa62d2-9bdc-440b-8416-aa86659a7d4c%2Forange11.jpg?v=1595385683288");
+  text-align: center;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+}
+
+.button {
+  position: relative;
+  top: -150px;
+  left: 50%;
+}
+
+.headerbackground {
+  width:100%;
+  height:400px;
+  background-color: orange;
+}
+
+/* Slideshow for small screens, see media  */ 
+.slideshow img{
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.nav{
+  height:40px; 
+}
+
+.nav img{
+  
+  height:40px; 
+}
+
+.houseCaptainCard {
+  display: inline-block;
+  padding: 5px;
+}
+
+/* Override css for mobile  */ 
+@media screen and (max-width: 480px) {
+
+  .slideshow img{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+  }
+}
